@@ -54,6 +54,10 @@ main {
   margin: auto;
   margin-bottom: 20rem;
   padding: 5rem 5rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
 }
 
 .hero-flex-spacer {
@@ -80,34 +84,28 @@ main {
   flex: 1;
   display: flex;
   margin: auto;
-  justify-content: space-evenly;
+  justify-content: left;
   align-items: center;
-  position: relative;
-  bottom: 20vh;
 
-  padding: 5rem 10rem;
+  padding: 2rem 8rem;
 
   /* background-color: #f1f1f1; */
 }
 
 .btn-a, .btn-b {
   margin: 1rem 2rem;
-  padding: 2rem 8rem;
+  padding: 1rem 4rem;
 }
 
-.btn-a {
+.btn-b {
   background-color: #e15100;
   border: 1px solid #e15100;
   color: #f1f1f1;
 }
 
-.btn-b {
-  border: 1px solid #e15100;
-  background-color: #f1f1f1;
-}
 
 .btn-b a {
-  color: #e15100;
+  color: #f1f1f1;
 }
 
 
