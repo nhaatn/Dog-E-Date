@@ -25,11 +25,23 @@
   width: 40%;
   height: auto;
   object-fit: cover;
-  padding-right: 3rem;
+  margin-right: 3rem;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.4);
+  border-radius: 4px;
+}
+
+.content-wrapper .blackdog-img {
+  width: 40%;
+  height: auto;
+  object-fit: cover;
+  margin-left: 3rem;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.4);
+  border-radius: 4px;
 }
 
 .corgi-text {
   background-color: rgb(236, 236, 236);
+  padding: 2rem 2rem 2rem 2rem;
 }
 
 .corgi-text p {
