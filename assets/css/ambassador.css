@@ -7,3 +7,39 @@
   background-size: cover;
   background-position: top;
 }
+
+.pattern {
+  background-image: url(../images/paw-print.png);
+  background-repeat: repeat;
+  height: 100%;
+}
+
+.ambassador-wrap-one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20rem;
+  padding-bottom: 10rem;
+}
+
+.ambassador-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10rem 0;
+}
+
+.a-header {
+  font-size: 5rem;
+}
+
+.a-img {
+  width: 80%;
+  height: auto;
+  object-fit: cover;
+  margin-right: 3rem;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.4);
+  border-radius: 4px;
+}
