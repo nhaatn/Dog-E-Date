@@ -33,6 +33,11 @@
 
 .a-header {
   font-size: 5rem;
+  width: 90%;
+  background-color: rgb(236, 236, 236);;
+  margin-bottom: 3rem;
+  padding: 2rem;
+  text-align: center;
 }
 
 .a-img {
