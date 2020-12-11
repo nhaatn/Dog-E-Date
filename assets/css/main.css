@@ -21,10 +21,14 @@ h6 {
 
 p,
 a {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   text-decoration: none;
   color: #f1f1f1;
   font-size: 2rem;
+}
+
+.text-special {
+  color: #e15100;
 }
 
 .container {
@@ -40,7 +44,7 @@ main {
   display: flex;
   min-height: 100vh;
   flex-direction: column;
-  background: url(../images/home-background-couple-with-dog.jpg) no-repeat  right/cover;
+  background: url(../images/home-background-couple-with-dog.jpg) no-repeat  left/cover;
 }
 
 .home-hero-section {
@@ -49,7 +53,6 @@ main {
 }
 
 .hero-text {
-  border: 1px solid black;
   flex: 1;
   margin: auto;
   margin-bottom: 20rem;
@@ -61,7 +64,6 @@ main {
 }
 
 .hero-flex-spacer {
-  border: 1px solid black;
   flex: 2;
   display: flex;
   margin-bottom: 20rem;
@@ -69,48 +71,92 @@ main {
 
 .hero-heading {
   font-family: 'Montserrat', sans-serif;
-  font-size: 7rem;
+  font-size: 9rem;
   color: #f1f1f1;
+  padding-bottom: 1rem;
 }
 
 .hero-tagline {
-  font-family: 'Esteban', serif;
-  font-size: 2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
   color: #f1f1f1;
 }
 
 .cta {
-  border: 1px solid black;
   flex: 1;
   display: flex;
-  margin: auto;
+  /* margin: auto; */
   justify-content: left;
   align-items: center;
 
-  padding: 2rem 8rem;
+  /* padding: 2rem 8rem; */
 
   /* background-color: #f1f1f1; */
 }
 
 .btn-a, .btn-b {
   margin: 1rem 2rem;
-  padding: 1rem 4rem;
+  padding: .7rem 4rem;
+
 }
 
 .btn-b {
   background-color: #e15100;
   border: 1px solid #e15100;
   color: #f1f1f1;
+  border-radius: .25rem;
 }
 
+.btn-b:hover {
+  cursor: pointer;
+  transform: scale(1.01);
+}
 
-.btn-b a {
-  color: #f1f1f1;
+input {
+  margin: 0 auto;
+  padding: 1rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.5rem;
+
+  flex: 2;
+
+  border: 0.5px solid #e15100;
+  border-radius: 0.5rem;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid #e15100;
+  box-shadow: 0 0 2px #e15100;
 }
 
 
 footer {
-  border: 1px solid black;
+  border-top: 3px solid #e15100;
+  text-align: center;
+}
+
+.socials {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.socials-i {
+  padding: 0 1rem;
+}
+
+.socials-i a {
+  font-size: 2rem;
+  color: #aaa;
+}
+
+footer p {
+  padding-bottom: 1rem;
+  font-weight: 100;
+  color: #aaa;
 }
 
 
@@ -119,7 +165,7 @@ footer {
 header {
   background-color: none;
   min-height: fit-content;
-  border-bottom: 5px solid #e15100;
+  /* border-bottom: 3px solid #e15100; */
 
   overflow: hidden;
 }
