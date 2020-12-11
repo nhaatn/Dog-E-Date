@@ -141,6 +141,7 @@ input:focus {
 footer {
   border-top: 3px solid #e15100;
   text-align: center;
+  background-color: rgba(0,0,0,0.7);
 }
 
 .socials {
@@ -164,6 +165,10 @@ footer p {
   padding-bottom: 1rem;
   font-weight: 100;
   color: #fff;
+}
+
+.socials-i a i:hover {
+  color: #e15100;
 }
 
 
@@ -194,7 +199,7 @@ header li {
 
 header a {
   font-size: 1.75rem;
-  font-weight: 100;
+  font-weight: 600;
   text-decoration: none;
   text-transform: uppercase;
   color: #f4f4f4;
