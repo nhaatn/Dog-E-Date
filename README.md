@@ -12,3 +12,9 @@
     - High-level concept pitches to attract users
 3. Ambassadors page
     - Recruitment material for potential ambassadors + a mini form to apply
+
+### GitHub Link:
+- https://github.com/nhaatn/Dog-E-Date
+
+### GitHub Pages Link:
+- https://nhaatn.github.io/Dog-E-Date/
