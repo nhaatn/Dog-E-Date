@@ -27,6 +27,10 @@ a {
   font-size: 2rem;
 }
 
+.current {
+  color: #e15100;
+}
+
 .text-special {
   color: #e15100;
 }
