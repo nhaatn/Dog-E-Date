@@ -1,0 +1,9 @@
+.main-ambassador {
+  display: flex;
+  min-height: 100vh;
+  
+  background-image: url(../images/ambassadors-hero.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: top;
+}
